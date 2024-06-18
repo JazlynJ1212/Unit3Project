@@ -1,0 +1,85 @@
+.movieList-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    /* border: 3.5mm ridge #E3D1DC ; */
+  }
+  
+
+  .moviecard-container {
+
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 0 250px; /* Flexbox sizing */
+    justify-content: center;
+  align-items: center; 
+
+  }
+    
+   
+  
+
+  /* .moviecard-container {
+    background-color: #6a6b70 ;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+  }
+   */
+  .moviecard-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .moviecard-container h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .moviecard-container h3 {
+    font-size: 16px;
+    color: #888;
+  }
+  
+
+.movie-item:hover{
+    transform: scale(1.01);
+}
+  
+
+
+
+.search-button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10x;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-button:hover {
+    background-color: #2980b9;
+}
+
+.search-container
+{
+    display:flex;
+    justify-content: center;
+    padding:1px
+
+}
+  
+button.load-more{
+    display:flex;
+    justify-content: center;
+}

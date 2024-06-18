@@ -1,0 +1,13 @@
+.app-footer {
+    background-color:#6a6b70   ;
+    color: white;
+    padding: 20px;
+    text-align: right;
+    font-size: 26px;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
+
+    margin-bottom: 0px;
+
+  }
+  
