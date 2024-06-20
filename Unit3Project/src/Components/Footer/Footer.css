@@ -1,4 +1,4 @@
-.app-footer {
+ /* .app-footer {
     background-color:#6a6b70   ;
     color: white;
     padding: 20px;
@@ -7,7 +7,31 @@
     font-family: "Arial", sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a subtle 3D effect */
 
-    margin-bottom: 0px;
+    /* margin-bottom: 0px;
 
+  } */ 
+
+  .app-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .app-footer p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-footer a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px; /* Adjust spacing as needed */
+  }
+  
+  .spacer {
+    flex-grow: 1;
   }
   
