@@ -6,7 +6,6 @@ const Header = () => {
     <>
       <header className="app-header">
         <h1>Flixter</h1>
-        <h2>NOW PLAYING</h2>
       
       </header>
 
@@ -14,3 +13,5 @@ const Header = () => {
   );
 };
 export default Header;
+
+

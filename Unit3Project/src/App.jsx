@@ -1,22 +1,3 @@
-// import React from "react";
-// // import { useState } from "react";
-// import Header from "./Components/Header/Header";
-// import MovieCard from "./Components/MovieCard/MovieCard";
-// import MovieList from "./Components/MovieList/MovieList";
-// import "./App.css";
-// const App = () => {
-//   return (
-// <>
-//     <Header/> 
-
-//       <div className="App"> App Container
-//     <MovieList/>
-    
-//       </div>
-//     </>
-//   );
-// };
-// export default App;
 
 import React from "react";
 import Header from "./Components/Header/Header";

@@ -83,3 +83,18 @@ button.load-more{
     display:flex;
     justify-content: center;
 }
+
+
+.view-buttons{
+  display:flex;
+  justify-content: center;
+  padding:5px;
+}
+
+.filters{
+display:flex;
+justify-content:center;
+border:1px;
+padding:10px
+
+}
